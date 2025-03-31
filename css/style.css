@@ -1,0 +1,83 @@
+.justify {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bratColor {
+    color: #95d401;
+}
+
+.bratBgColor {
+    background-color: #95d401;
+}
+
+.billieColor {
+    color: #1495c5;
+}
+
+.contatosIcon {
+    color: #1dd3b0;
+}
+
+.myContainer {
+    background-color: #3c3c3c;
+    color: white;
+    border-radius: 20px;
+}
+
+.myCarousel {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.myListGroup {
+    width: 30%;
+}
+
+.listGroupItem {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.myAccordion {
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.listGroupItem:hover, 
+.listGroupItem:enabled {
+    background-color: #95d401;
+    color:black;
+}
+
+.myDropdown:active {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.myAccordion:enabled {
+    background-color: #1f1f1f;
+    color:white;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .myCarousel {
+        width: 100%;
+    }
+
+    .myCards {
+        margin-top: 1rem;
+    }
+
+    .myListGroup {
+        width: 100%;
+    }
+}
+
+body {
+    background-color: #1f1f1f;
+    color: white;
+}
